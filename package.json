@@ -1,6 +1,6 @@
 {
-  "name": "react-validator",
-  "version": "1.0.0",
+  "name": "react-values-validator",
+  "version": "1.0.1",
   "description": "This package make sure that all your are validated like email password debit card passport number and several other validations ",
   "main": "index.js",
   "scripts": {

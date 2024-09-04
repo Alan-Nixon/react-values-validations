@@ -7,4 +7,4 @@
 You can install the package via npm:
 
 ```bash
-npm install react-validator
+npm install react-values-validator
