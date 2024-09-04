@@ -1,6 +1,6 @@
 {
   "name": "react-values-validator",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "This package makes sure that all your values are validated, such as email, password, debit card, passport number, and several other validations.",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
