@@ -1,15 +1,16 @@
 {
   "name": "react-values-validator",
-  "version": "1.0.1",
-  "description": "This package make sure that all your are validated like email password debit card passport number and several other validations ",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "This package makes sure that all your values are validated, such as email, password, debit card, passport number, and several other validations.",
+  "types":"dist/index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alan-Nixon/react-validator.git"
+    "url": "git+https://github.com/Alan-Nixon/react-values-validations.git"
   },
   "keywords": [
     "react",
@@ -22,9 +23,9 @@
   "author": "Alan Nixon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alan-Nixon/react-validator/issues"
+    "url": "https://github.com/Alan-Nixon/react-values-validations/issues"
   },
-  "homepage": "https://github.com/Alan-Nixon/react-validator#readme",
+  "homepage": "https://github.com/Alan-Nixon/react-values-validations#readme",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
