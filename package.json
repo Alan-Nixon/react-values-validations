@@ -1,8 +1,8 @@
 {
   "name": "react-values-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package makes sure that all your values are validated, such as email, password, debit card, passport number, and several other validations.",
-  "types":"dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
@@ -27,6 +27,9 @@
   },
   "homepage": "https://github.com/Alan-Nixon/react-values-validations#readme",
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
