@@ -1,4 +1,3 @@
-import MyComponent from './Default';
 export declare const validateName: (Name: string) => boolean;
 export declare const validateFullName: (FullName: string) => boolean;
 export declare const validateEmail: (email: string) => boolean;
@@ -21,4 +20,3 @@ export declare const validatePassportNumber: (passport: string) => boolean;
 export declare const validateBinary: (binary: string) => boolean;
 export declare const validateYouTubeURL: (url: string) => boolean;
 export declare const validateMongoObjectId: (id: string) => boolean;
-export default MyComponent;
