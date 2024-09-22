@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production',  
+  mode: 'production',
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -9,6 +9,7 @@ module.exports = {
     library: 'ReactValidator',
     libraryTarget: 'umd',
     umdNamedDefine: true,
+    globalObject: 'this'
   },
   module: {
     rules: [
